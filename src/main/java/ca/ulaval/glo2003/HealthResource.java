@@ -16,3 +16,13 @@ public class HealthResource {
         return Response.ok(new HealthResponse("ok")).build();
     }
 }
+
+    @GET
+    @Path("restaurants")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response lister_restaurant() {
+        return Response.ok(new HealthResponse("ok")).build();
+}
+
+
+
